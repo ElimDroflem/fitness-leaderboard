@@ -1,0 +1,32 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --dark-grey: #1e1e1e;
+  --light-grey: #8c8c8c;
+  --orange: #e7760d;
+  --blue: #00b8d4;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--light-grey);
+  background-color: var(--black);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#leaderboard {
+  border-radius: 1rem;
+  background-color: var(--dark-grey);
+  width: 90%;
+  margin-top: 2rem;
+}
+
+#leaderboard .table-headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: var(--orange);
+}
